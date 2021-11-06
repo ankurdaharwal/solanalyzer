@@ -1,0 +1,12 @@
+[programs.devnet]
+solanalyzer = "5vckYUEkAZRc5eFEGEpNdoJHWQYV982bfWgowNxvYXAA"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/ankur/.config/solana/id.json"
+
+[scripts]
+test = "node tests/solanalyzer.js" 
